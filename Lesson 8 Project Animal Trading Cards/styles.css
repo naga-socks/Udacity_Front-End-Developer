@@ -1,29 +1,52 @@
-/* add your CSS here */
+/* add your CSS here
 
-body {
-	font-family: 'Roboto', sans-serif;
-  font-stretch: semi-expanded;
+notes
+SPAN: https://www.codecademy.com/en/forum_questions/502ad0ea558dfe0002026d69
+*/
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: #00a5d2;
+  border-radius: 50px 50px 50px 50px;
 }
-.container {
-	display: flex;
-	flex-wrap: wrap;
+
+.title {
+  font-family: "Times New Roman";
+  font-size: 200%;
 }
-.menu {
-	width: 15%;
+
+.imageCorgi {
+  width: 300px;
+  border: 1px solid black;
 }
-.portfolio {
-	width: 85%;
-}
-.item {
-	width: 100%;
-	clear: both;
-}
-.item img {
-	float: left
-}
-h3 {
-	display: table-cell;
-	vertical-align: middle;
-	height: 240px;
+
+.boxInfo {
+  /*spans info under text*/
+  border: 1px solid black;
+  width: 300px;
   color: red;
+}
+.boxInteresting {
+  border: 1px solid black;
+  width: 300px;
+  color: purple;
+  font-size: 12pt;
+}
+.boxStats {
+  border: 1px solid black;
+  width: 300px;
+  color: green;
+  font-size: 12pt;
+  line-height: 4px; /* 4px +12px + 4px */
+}
+.boxBrief {
+  border: 1px solid black;
+  width: 300px;
+  color: blue;
+  font-size: 12pt;
 }
