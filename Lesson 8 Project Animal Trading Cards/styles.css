@@ -1,0 +1,29 @@
+/* add your CSS here */
+
+body {
+	font-family: 'Roboto', sans-serif;
+  font-stretch: semi-expanded;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu {
+	width: 15%;
+}
+.portfolio {
+	width: 85%;
+}
+.item {
+	width: 100%;
+	clear: both;
+}
+.item img {
+	float: left
+}
+h3 {
+	display: table-cell;
+	vertical-align: middle;
+	height: 240px;
+  color: red;
+}
