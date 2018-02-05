@@ -24,7 +24,7 @@ if(checkBalance){
     console.log("Your account is empty.");
   }
   else{
-      console.log("Your balance is negative. Please contact bank.")
+      console.log("Your balance is negative. Please contact bank.");
   }
 }
 else{
